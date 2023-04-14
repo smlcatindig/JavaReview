@@ -1,0 +1,122 @@
+Type Casting- converting value of one type to another
+2 types: widening/implicit/automatic
+         narrowing/explicit/manual
+
+Conditional Statements:
+1. if Statement
+2. switch Statement
+
+if statement:
+if (condition) {
+      code A;
+}
+
+---------------------
+
+if (condition){
+      code A;
+}else {
+      code B;
+}
+
+---------------------
+when we have more conditions to test - we can add else if{}
+
+if (condition){
+     code A;
+}else if (condition) {
+            code B;
+}else if (condition) {
+            code C;
+}else {
+    code D;
+}
+
+------------------------------
+nested if
+WHAT: if inside another if
+WHY: when we have 1 condition depend on another
+How:
+
+if(condition){ -> outer if
+    if(condition) { -> nested if
+    }
+    }
+Scanner----------------------------------------
+Class that is used to take input from a user
+
+
+
+
+// do not use relational operators for String only on numerical data types
+// use if(variable.equals("")){
+}
+
+--------------------------------Review 3-------------------------------------
+loops
+switch
+
+logical operators: and &&, or ||, ! not
+why: when we need to test 2 or more conditions in 1 statement
+
+AND
+True && True -> TRUE
+True && False -> FALSE
+False && True -> FALSE
+False && False -> FALSE
+
+OR
+True || True -> TRUE
+True || False -> TRUE
+False || True -> TRUE
+False || False -> FALSE
+
+NOT !
+
+switch statement is another conditional statement in Java
+
+switch(variable) {
+case 1: code A;
+break;
+case 2: code B;
+break;
+default: code C;
+}
+
+switch case is a great alternative for if else if
+switch case has limitations:
+data types: cannot work with boolean, long, double, float
+operators: no logical, or relational
+
+loops in Java -
+for
+while
+do while
+enhanced or advanced for loop
+
+while(condition) {
+block of code to be repeated
+}
+
+----------------------------------------
+do {
+block of code to be repeated
+}
+
+Scanner--------------------
+Class that is used to take input from a user
+
+----------------------------------------Review4---------------------------------------------
+
+break - breaks / stops the loop
+continue - skips current iteration/ move to the next one
+
+nested loop - loop inside a loop
+
+for () {
+    for() {}
+}
+
+for () {
+    while() {}
+}
